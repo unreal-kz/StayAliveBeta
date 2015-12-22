@@ -22,10 +22,10 @@
 
         <meta-data
             android:name="com.parse.APPLICATION_ID"
-            android:value="Bg03VyrSH8FQa36Wlgc0GdVryXVb0Snuwxlunum6" />
+            android:value="APP_KEY" />
         <meta-data
             android:name="com.parse.CLIENT_KEY"
-            android:value="GE84lbYr9Hfwmt9aUMB4En7zhlncSJ20qT5JjeGL" />
+            android:value="CLIENT_KEY" />
 
         <activity android:name=".registration.Registration" >
         </activity>
