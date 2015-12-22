@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.unreal_kz.randomizer" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="Bg03VyrSH8FQa36Wlgc0GdVryXVb0Snuwxlunum6" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="GE84lbYr9Hfwmt9aUMB4En7zhlncSJ20qT5JjeGL" />
+
+        <activity android:name=".registration.Registration" >
+        </activity>
+        <activity android:name=".Randomizer" >
+        </activity>
+        <activity android:name=".QRGenerator" >
+        </activity>
+    </application>
+
+</manifest>
